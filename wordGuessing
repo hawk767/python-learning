@@ -1,0 +1,9 @@
+import random
+
+wordList = ['black', 'blue', 'orange', 'yellow',
+            'red', 'pink', 'white', 'green']
+
+#Acquires a random word from the (statedList)
+randWord = random.choice(wordList)
+
+print ('Your word is ' + randWord)
